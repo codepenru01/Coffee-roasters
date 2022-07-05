@@ -1,0 +1,172 @@
+.intro {
+  margin-top: 400px;
+  margin-bottom: 200px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.intro__line {
+  margin-top: 80px;
+  position: relative;
+  width: 760px;
+  height: 1px;
+  background-color: #FDD6BA;
+}
+
+.intro__span1 {
+  position: absolute;
+  left: 0;
+  top: -15px;
+  z-index: 1;
+  background-color: white;
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.intro__span2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: #fff;
+  top: -15px;
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.intro__span3 {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  top: -15px;
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.intro__list {
+  max-width: 1045px;
+  margin-top: 134px;
+  justify-content: space-between;
+
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.intro__item {
+  max-width: 285px;
+}
+
+.intro__item--span {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+
+}
+
+.intro__item--title {
+  font-family: 'Fraunces', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 42px;
+  margin-top: 38px;
+
+}
+
+.intro__item--text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+
+}
+
+@media only screen and (max-width:966px) {
+  .intro__inner {
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro__line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 567px;
+    height: 1px;
+    background-color: #FDD6BA;
+  }
+
+  .intro__list {
+    margin-top: 80px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .intro__item+.intro__item {
+    margin-top: 56px;
+  }
+
+  .greet-coffee__link-2 {
+
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (max-width:776px) {
+
+  .intro__title {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:621px) {
+  .intro {
+    margin-top: 600px;
+  }
+
+  .intro__line {
+    display: none;
+  }
+
+  .intro__item--span {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  .intro__item--title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  .intro__item--text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width:511px) {
+  .intro {
+    margin-top: 650px;
+  }
+}

@@ -1,0 +1,16 @@
+.logo {
+  display: inline-block;
+
+  &__img {
+    display: block;
+    width: 236px;
+    height: 26px;
+  }
+}
+
+@media only screen and (max-width:444px) {
+  .logo__img {
+    width: 163px;
+    height: 18px;
+  }
+}

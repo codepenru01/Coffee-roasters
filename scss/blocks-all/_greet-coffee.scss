@@ -1,0 +1,98 @@
+.greet-coffee__inner {
+  padding-top: 116px;
+  padding-bottom: 116px;
+  padding-left: 86px;
+  background-image: url("../../img/greet_coffee-bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.greet-coffee__content {
+  max-width: 493px;
+}
+
+.greet-coffee__title {
+  font-family: 'Fraunces', sans-serif;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.greet-coffee__text-div {
+  max-width: 445px;
+}
+
+.greet-coffee__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7bc;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+
+.greet-coffee__link {
+  background-color: #0E8784;
+  display: inline-block;
+  padding: 15px 32px;
+  font-family: 'Fraunces' sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  border-radius: 6px;
+}
+
+.greet-coffee__link:hover {
+  background-color: #66D2CF;
+}
+
+@media only screen and (max-width:767px) {
+  .greet-coffee__inner {
+    padding: 104px 0;
+    padding-left: 86px;
+  }
+
+  .greet-coffee__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .greet-coffee__text {
+    font-size: 15px;
+  }
+
+  .greet-coffee__inner {
+    background-image: url("../../img/greet_coffee-bg-image-2.jpg");
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .greet-coffee__inner {
+    padding: 100px 10px;
+  }
+
+  .greet-coffee__content {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .greet-coffee__inner {
+    background-image: url("../../img/greet_coffee-bg-image-3.jpg");
+  }
+
+  .greet-coffee__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
